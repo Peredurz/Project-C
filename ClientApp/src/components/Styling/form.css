@@ -1,0 +1,254 @@
+.RegistrationForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 600px;
+    width: 60%;
+    /* padding: 10px; */
+    border: 4px solid #7E3F98;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.header-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+#MessageRegister{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 9px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.input-register{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 250px;
+    height: 80px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.input-register img{
+    margin: 0px 20px;
+}
+
+.input-register input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+#lastname{
+    margin-left: 10px;
+}
+
+#passwordconfirm{
+    margin-left: 10px;
+}
+
+.input-register-email{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 520px;
+    height: 80px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.input-register-email img{
+    margin: 0 20px;
+}
+
+.input-register-email input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-container-div {
+    padding: 5px;
+    width: 100%;
+}
+.email-div input{
+    width: 100%;
+}
+.RegistrationForm input[type="text"], input[type="password"] {
+    border-radius: 4px;
+    padding: 5px;
+    outline: none !important;
+}
+
+.submit-register{
+    display: flex;
+    gap: 30px;
+    margin: 40px auto 10px;
+}
+
+.page {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+
+.leftside img {
+    width: 75%;
+    height: 75%;
+    block-size: auto;
+    object-fit: contain;
+    align-items: center;
+}
+
+.right {
+    flex: 1;
+    background-color: #7E3F98;
+    color: white;
+    border-radius: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.redirect-button {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 801px) {
+    .login{
+        width: 90%;
+        margin: 160px auto auto;
+        background: #7E3F98;
+        padding-bottom: 30px;
+        border-radius: 20px;
+    }
+    .header{
+        margin-top: 30px;
+    }
+    .text{
+        font-size:  36px;
+    }
+    .inputs{
+        width: 90%;
+        margin: 10% auto -1%;
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width: 90%;
+    }
+    .input img{
+        margin: 0 10px;
+    }
+    .input input{
+        width: 80%;
+        font-size: 16px;
+    }
+    .forgot-password{
+        margin: auto;
+        color: #fff;
+        font-size: 16px;
+    }
+    .submit{
+        width: 50%;
+        height: 50px;
+        font-size: 16px;
+    }
+    .link-to-somewhere {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link-to-somewhere:hover{
+        color: #000000;
+    }
+
+    .redirect-button {
+        margin-top: 5%;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .redirect-button span {
+        display: block;
+    }
+    .header{
+        display: none;
+    }
+
+    .RegistrationForm input[type="text"],
+    .RegistrationForm input[type="password"] {
+        display: block;
+        width: 90%;
+        margin-bottom: 10px;
+        height: 30px;
+    }
+    .leftside{
+        display: none;
+    }
+    .submit-register {
+        display: flex;
+        gap: 30px;
+        margin: auto;
+        width: 250px;
+        text-align: center;
+        justify-content: center;
+    }
+    .layout-main {
+        overflow: hidden;
+    }
+    .input-register-email {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 250px;
+        height: 80px;
+        background: #fff;
+        border-radius: 6px;
+    }
+}

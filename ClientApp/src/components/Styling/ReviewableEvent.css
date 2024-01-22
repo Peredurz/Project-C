@@ -1,0 +1,28 @@
+.reviewable-event {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    display: inline-block;
+    border: 1px solid #7E3F98;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.event-name {
+    font-weight: 400;
+}
+
+.event-datetime{
+    font-weight: 400;
+    padding-top: 5%;
+}
+
+.star-rating{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.info-button {
+    padding-top: 10px;
+    text-align: center;
+}

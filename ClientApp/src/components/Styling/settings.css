@@ -1,0 +1,64 @@
+.input-field {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+   
+}
+
+.date-fields{
+    display: block;
+    width: calc(100% - 10px);
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.location-input {
+    width: calc(100% - 20px);
+}
+
+.textarea-field {
+    display: block;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.add-event-button {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .hidden-div-off {
+      flex-direction: column;
+      overflow-y: scroll;
+    }
+  
+    .hidden-box-center {
+        /*Move this div to the top*/
+        order: -1;
+        margin-top: 10px; /* Optional: Add space between this and the div above it */
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .arrow-button-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .date-box {
+        width: 100%;
+        margin: 10px;
+    }
+}

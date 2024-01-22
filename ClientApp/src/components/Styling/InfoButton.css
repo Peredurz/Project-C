@@ -1,0 +1,36 @@
+.info-button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.info-symbol{
+    font-size: 50px;
+}
+.info-discription{
+    width: 75%;
+    height: 50%;
+    position: relative;
+    word-break: break-word;
+    white-space: normal;
+    text-align: center;
+    margin: auto;
+}
+.info-text{
+    position: relative;
+    text-align: center;
+    white-space: normal;
+}
+.info-attending-people{
+    width: 75%;
+    height: 50%;
+    position: relative;
+    word-break: break-word;
+    white-space: normal;
+    text-align: left;
+    margin: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #6a347f;
+    overflow-y: scroll;
+}
