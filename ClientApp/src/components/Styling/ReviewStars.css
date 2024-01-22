@@ -1,0 +1,19 @@
+#star-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.star{
+    font-size: 25px;
+    letter-spacing: -5px;
+    display: flex;
+}
+
+.on{
+    color: purple;
+}
+
+.off{
+ color: gray;
+}

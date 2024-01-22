@@ -1,0 +1,103 @@
+.event-hidden {
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.event {
+    flex: 0 0 auto;
+    white-space: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #7E3F98;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    max-width:220px;
+    word-wrap: break-word;
+}
+
+.event h3, h5, h6 {
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.buttonFalseEvents {
+    background-color: red;
+    border: none;
+    min-width: 200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.buttonDisabledEvents {
+    background-color: lightcoral;
+    cursor: not-allowed;
+    pointer-events: none;
+    text-decoration-color: #797979;
+    border: none;
+    min-width: 200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.buttonTrueEvents {
+    background-color: green;
+    border: none;
+    cursor:pointer;
+    min-width: 200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.buttonFalseEvents:hover {
+    opacity: 70%;
+}
+.buttonDisabledEvents:hover {
+    opacity: 70%;
+}
+
+.buttonTrueEvents:hover {
+    opacity: 80%;
+}
+
+.approveButton {
+    background-color: green;
+    display: block;
+    border: none;
+    min-width: 200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.editButton {
+    display: block;
+    border: none;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.deleteButton {
+    display: block;
+    border: none;
+    min-width: 200px;
+    margin: 10px auto 9px;
+    border-radius: 5px;
+}
+
+.editModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

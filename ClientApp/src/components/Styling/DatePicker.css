@@ -1,0 +1,5 @@
+.react-datepicker__input-container {
+    position: static !important;
+    display: inline-block;
+    width: 100%;
+}

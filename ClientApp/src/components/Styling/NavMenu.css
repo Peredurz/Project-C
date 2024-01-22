@@ -1,0 +1,143 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+/*Main body div*/
+/*.main-div{*/
+/*  position: relative;*/
+/*  padding: 10px 16px 1px;*/
+/*  border: 3px solid purple;*/
+/*  border-radius: 20px;*/
+/*}*/
+.main-div h1, h5 {
+  text-align: center;
+}
+
+.inner-div{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top:10px;
+  border: 2px solid purple;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.people-image{
+  bottom: 500px;
+  left: 0px;
+  right:15px;
+  font-size: 18px;
+  width: 80px;
+  padding: 15px 15px 15px 20px;
+}
+html {
+  font-size: 14px;
+}
+
+hr {
+  border: 5px;
+  height: 2px;
+  /* Set the hr color */
+  color: #000000;  /* old IE */
+  background-color: #000000;  /* Modern Browsers */
+}
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media (max-width: 1550px) {
+  .navbar-div {
+
+    display: none;
+  }
+  
+}
+/*current link*/
+#navigation a.current{
+  color: #ffffff;
+  background:#f1d74c;
+}
+/*Stuff that's used in the Nav*/
+img{
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+.navbar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  background-color: #6a347f;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  text-align: center;
+}
+.navbar-ul li {
+  border-bottom: 3px solid black;
+}
+.image:hover{
+  background-color: white;
+  opacity: .6;
+  transition:.5s;
+}
+.hr-main{
+  border: 2px solid #6A347F;
+  margin: 20px 0;
+
+}
+.text{
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.buttonTrue{
+  background-color: green;
+}
+.buttonFalse{
+  background-color: red;
+}
+.arrow-button{
+  position:absolute;
+  right:15px;
+  bottom:5px;
+  border: none;
+  background: none;
+  
+}
+
+
+.arrow {
+  border: solid #6A347F;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 14px;
+}
+
+.right-button {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  padding:5px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  padding:5px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
