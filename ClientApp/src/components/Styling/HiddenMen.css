@@ -1,0 +1,228 @@
+/*Office info*/
+.hidden-seperator{
+    border: solid #6A347F;
+}
+.hidden-box{
+    border: 5px solid purple;
+    height:90%;
+    float:left;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include border in the height calculation */
+    padding: 5px;
+}
+.p-home{
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/*Date box*/
+.hidden-box-center{
+    height:5%;
+    width:5%;
+    border: 5px solid purple;
+    text-align:center;
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display:flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border-radius: 15px;
+    
+}
+
+.hidden-div-off > div{
+    flex: 1; /*grow*/
+}
+.hidden-div-off{
+    height: 300px;
+    padding: 1px 16px;
+    paddingTop:10px;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+    display:flex;
+  
+}
+
+
+/*End of Office info*/
+/*Edit User Profile*/
+.hidden-div-up> div{
+    flex: 1; /*grow*/
+}
+.hidden-div-up{
+    position: relative;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px 16px 1px;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+    display:flex;
+    white-space: nowrap;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.user-pfp{
+    border: 3px solid purple;
+    margin-top:5%;
+    height:60%;
+    width: 20%;
+    float:left;
+    position:absolute;
+    text-align: center;
+}
+.user-name{
+    border: 3px solid purple;
+    text-align: center;
+    height: 10rem;
+    width: 20%;
+    padding: 30px;
+    padding-top: 0px;
+    margin-left: 30%;
+    margin-right: 50%;
+    display:flex;
+    flex-direction: column;
+    margin-top: 7%;
+    position: relative;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+/*End of Edit User Profile*/
+/*Upcoming events*/
+.hidden-event{
+    border: 3px solid purple;
+    margin-top:3%;
+    border-radius:4%;
+    height:90%;
+    width: 20%;
+    float:left;
+    position:absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden-div-ev{
+    height: 450px;
+    padding: 1px 16px;
+    paddingTop:10px;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+    display:flex;
+}
+#JEvButton{
+    position: absolute;
+    bottom: 12%;
+    width: 20%;
+    min-width: 50px;
+    font-size: 1em;
+}
+.nfo {
+    width: 0px;
+    transition: .3s;
+    opacity: 0;
+}
+.ExtraInf {
+    border: 1px solid black;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255,255,255);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    position: absolute;
+    bottom: 2%;
+    width: 10%;
+    min-width: 32px;
+    font-size: 1em;
+}
+.EventPhoto{
+    padding:1px;
+    width:70%;
+    top:5%;
+    position: absolute;
+    border:1px solid purple;
+    border-radius: 20px;
+
+}
+.hidden-event p, h6{
+    margin: 0px;
+}
+/*End of Upcoming events*/
+#EvButton{
+    bottom: 12%;
+    width: 20%;
+    min-width: 50px;
+    font-size: 1em;
+}
+#Attendancebtn, #EvButton,#JEvButton{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+#Attendancebtn:hover, #EvButton:hover, #JEvButton:hover{
+    opacity: 76%;
+    
+}
+
+.pfp-box{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20%;
+}
+
+@media (max-width: 768px) {
+    .hidden-div-up {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        position: relative;
+        z-index: -1;
+        height: auto;
+    }
+
+    .user-pfp,
+    .user-name {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .user-pfp {
+        margin-top: 5%; /* Adjusted margin */
+        height: 60%;
+        width: 100%; /* Full width on small screens */
+        position: relative; /* Remove absolute positioning */
+        float: none; /* Remove float */
+        text-align: center;
+        border: 3px solid purple;
+    }
+
+    .user-name {
+        margin-top: 7%;
+        height: auto; /* Adjusted height */
+        width: 100%; /* Full width on small screens */
+        padding: 15px; /* Adjusted padding */
+        margin-left: 0; /* Removed margin-left */
+        margin-right: 0; /* Removed margin-right */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        border: 3px solid purple;
+    }
+    .pfp-box{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-top: 10%;
+    }
+}

@@ -1,0 +1,104 @@
+.day-container {
+  border: 3px solid purple;
+  margin: 1%;
+  padding: 10px;
+  flex: 1;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.day-container h2, h3, h6, h4{
+    margin: 0 0 10px;
+    padding: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.day-container p{
+  text-align: center;
+  font-weight: bold;
+}
+.day-container h5{
+  font-weight: bolder;
+}
+
+.week-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calendar-div{
+
+  /*border: 2px solid purple;*/
+  border-radius: 20px;
+}
+.calendar-div h1, h5 {
+  text-align: center;
+}
+
+.calendar-event {
+  border: 2px solid purple;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.previous-week-button{
+    border: 2px solid purple;
+    margin-left: 1%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+.next-week-button{
+    margin-left: 85%;
+  border: 2px solid purple;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+
+.join-day-button{
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+.join-day-button-joined{
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .calendar-div{
+        width: 75%;
+        margin-left: 12.5%;
+        flex-direction: column
+        
+    }
+  .week-container {
+    flex-direction: column;
+  }
+  .previous-week-button{
+    margin-left: 0;
+    margin-top: 10px;
+      flex-direction: column;  
+  }
+  .next-week-button{
+    margin-left: 30%;
+    margin-top: 10px;
+      flex-direction: column;
+  }
+}

@@ -1,0 +1,25 @@
+.base-modal::backdrop {
+    backdrop-filter: blur(1px);
+    background: rgba(0,0,0, .75) ;
+}
+
+.base-modal{
+    position: relative;
+    border: solid #7E3F98;
+
+    
+}
+
+.close-modal-btn{
+    position: absolute;
+    border: solid #7E3F98;
+    top: 3%;
+    right: 3%;
+    border-radius: 10%;
+    background: none;
+    font-weight:bold;
+}
+
+.child-elements{
+    padding-top: 20px;
+}

@@ -1,0 +1,65 @@
+#reservedButton {
+    width: 75px;
+    height: 25px;
+    background: grey;
+    color: white; /* Add text color to improve visibility */
+    cursor: not-allowed; /* Add not-allowed cursor to indicate the button is disabled */
+    border-radius: 25px;
+    border: none;
+    margin: 5px;
+    align-items: center;
+}
+
+.date-box{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+  
+.cancelButton {
+    width: 75px;
+    height: 25px;
+    background: grey;
+    color: white; /* Add text color to improve visibility */
+    border-radius: 25px;
+    border: none;
+    margin: 5px;
+    align-items: center;
+}
+
+.reserveButton {
+    width: 75px;
+    height: 25px;
+    background: grey;
+    color: white; /* Add text color to improve visibility */
+    border-radius: 25px;
+    border: none;
+    margin: 5px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .hidden-div-off {
+      flex-direction: column;
+      overflow-y: scroll;
+    }
+  
+    .hidden-box-center {
+        /*Move this div to the top*/
+        order: -1;
+        margin-top: 10px; /* Optional: Add space between this and the div above it */
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .arrow-button-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .date-box {
+        width: 100%;
+        margin: 10px;
+    }
+}
